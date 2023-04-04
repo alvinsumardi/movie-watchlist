@@ -15,36 +15,16 @@
                 <h1>Find your film</h1>
                 <a href="index.html">Search for movies</a>
             </div>
-            <div class="search-bar">
-                <input type="search" id="input-search" name="input-search" placeholder="Search for a movie" />
-                <button id="search-btn">Search</button>
-            </div>
         </header>
         <main class="container">
-            <div id="empty" class="hide">
-                <img src="./images/icon-movie.svg" />
-                <h2 id="message">Start exploring</h2>
+            <div id="no-movie" class="splash-screen" class="hide">
+                <h2 id="message" style="margin-bottom: 20px">Your watchlist is looking a little empty...</h2>
+                <a href="index.html"><i class="fa fa-plus-circle"></i> Let’s add some movies!</a>
             </div>
             <div id="movie-list">
-                <article class="movie-item">
-                    <img src="./images/GotG_v2.jpg" />
-                    <div class="movie-item-info">
-                        <div class="title">
-                            <h3>Guardians of the Galaxy Volume 2 <span class="rating"><img src="./images/icon-star.png" /> 8.1</span></h3>
-                        </div>
-                        <div class="detail-info">
-                            <p>117 min</p>
-                            <p>Action, Drama, Sci-fi</p>
-                            <button><i class="fa fa-minus-circle"></i> Remove</button>
-                        </div>
-                        <p class="synopsys">
-                            A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.
-                        </p>
-                        
-                    </div>
-                </article>
             </div>
         </main>
 	<script src="index.js" type="module"></script>
+    <script src="watchlist.js" type="module"></script>
     </body>
 </html>

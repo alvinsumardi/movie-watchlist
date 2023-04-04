@@ -37,9 +37,15 @@ header .top h1 {
 
 }
 
-header .top a {
+header .top a, .splash-screen a {
     color: white;
     font-size: 14px;
+}
+
+.splash-screen a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #363636;
 }
 
 header .search-bar {
@@ -76,14 +82,14 @@ header button {
     min-height: 500px;
 }
 
-#empty {
+.splash-screen {
     min-height: 100%;
     text-align: center;
     color: #dfdddd;
     padding: 25%;
 }
 
-#empty h2 {
+.splash-screen h2 {
     font-size: 18px;
     margin-top: 10px;
     
